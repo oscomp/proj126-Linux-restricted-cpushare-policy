@@ -8,6 +8,8 @@
 
 使用Cgroup [CPUSETS](https://www.kernel.org/doc/html/latest/admin-guide/cgroup-v1/cpusets.html#id2)技术可以设置CPU亲和性，把任务限定到部分CPU上。出于CPU管理成本和使用成本方面的考虑，更广泛的应用场景里采用默认的不设置CPU亲和性策略，出现了限制CFS调度的CPU并发度的需求。
 
+本项目旨在为CFS调度器增加限制Cgroup任务使用CPU的并发度功能。
+
 ### 所属赛道
 
 2022全国大学生操作系统比赛的“OS功能挑战”赛道
