@@ -1,4 +1,4 @@
-# projX-Linux-restricted-cpushare-policy
+# proj126-Linux-restricted-cpushare-policy
 ### 项目名称
 限制CFS调度器的CPU并发度
 
